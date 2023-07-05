@@ -1,10 +1,11 @@
-import "./App.css";
+import Layout from "./components/Layout";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
-      <div>Shorten URL</div>
-    </div>
+    <Layout>
+      <HomePage />
+    </Layout>
   );
 }
 
